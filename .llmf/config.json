@@ -1,0 +1,6 @@
+{
+  "api_url": "http://127.0.0.1:1234/v1/chat/completions",
+  "api_key": "",
+  "model": "qwen/qwen3.5-35b-a3b",
+  "request_timeout_seconds": 999
+}

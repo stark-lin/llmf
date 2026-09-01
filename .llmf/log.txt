@@ -1,0 +1,230 @@
+2026-08-06T15:10:48.859382+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] START
+2026-08-06T15:10:48.860233+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:10:48.860309+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:10:48.860371+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T15:10:48.864367+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] START
+2026-08-06T15:10:48.866441+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:10:48.866467+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:10:48.866497+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T15:10:48.870562+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] MODEL
+2026-08-06T15:10:50.270673+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] API error="interrupted"
+2026-08-06T15:10:50.270798+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:10:50.270817+10:00 [28b39884-5045-4b35-8b48-08fadb7bb9c9] [clean-web] END exit_code=130 elapsed_ms=1406
+2026-08-06T15:10:50.273862+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] MODEL
+2026-08-06T15:10:50.274054+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] API error="interrupted"
+2026-08-06T15:10:50.274080+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:10:50.274093+10:00 [a4404a0b-b278-490e-8ca9-94402e983875] [summarize] END exit_code=130 elapsed_ms=1414
+2026-08-06T15:11:11.690695+10:00 [c1bc1a5e-f721-4438-af4f-722ca9650ee7] [translatetocn] START
+2026-08-06T15:11:11.691665+10:00 [c1bc1a5e-f721-4438-af4f-722ca9650ee7] [translatetocn] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:11.691757+10:00 [c1bc1a5e-f721-4438-af4f-722ca9650ee7] [translatetocn] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:11.691836+10:00 [c1bc1a5e-f721-4438-af4f-722ca9650ee7] [translatetocn] ERROR exit_code=66 message="prompt not found: translatetocn"
+2026-08-06T15:11:11.691854+10:00 [c1bc1a5e-f721-4438-af4f-722ca9650ee7] [translatetocn] END exit_code=66 elapsed_ms=1
+2026-08-06T15:11:11.694735+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] START
+2026-08-06T15:11:11.694944+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] START
+2026-08-06T15:11:11.697058+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:11.697087+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:11.697116+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T15:11:11.697147+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:11.697175+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:11.697205+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T15:11:11.700882+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] MODEL
+2026-08-06T15:11:14.946826+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] API error="interrupted"
+2026-08-06T15:11:14.946933+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:11:14.946944+10:00 [cb9f3940-7880-4aa3-b427-5a6af3574cf5] [clean-web] END exit_code=130 elapsed_ms=3252
+2026-08-06T15:11:14.952668+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] MODEL
+2026-08-06T15:11:14.952827+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] API error="interrupted"
+2026-08-06T15:11:14.952837+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:11:14.952841+10:00 [c057f757-4de5-454d-aa25-8e7cbec5d5bc] [summarize] END exit_code=130 elapsed_ms=3257
+2026-08-06T15:11:32.671601+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] START
+2026-08-06T15:11:32.672477+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:32.672531+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:32.672579+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T15:11:32.675579+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] START
+2026-08-06T15:11:32.675793+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] START
+2026-08-06T15:11:32.678004+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:32.678037+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:32.678040+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:32.678067+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:32.678084+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetozh.md"
+2026-08-06T15:11:32.678094+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T15:11:32.783619+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] MODEL
+2026-08-06T15:11:43.143112+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] API error="interrupted"
+2026-08-06T15:11:43.143212+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:11:43.143226+10:00 [1adfbcbe-2c8b-4892-893d-dc9860a0abb5] [clean-web] END exit_code=130 elapsed_ms=10467
+2026-08-06T15:11:43.144998+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] MODEL
+2026-08-06T15:11:43.145133+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] API error="interrupted"
+2026-08-06T15:11:43.145151+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:11:43.145163+10:00 [0912e983-0c3c-4594-9015-e1fcf4ad0a1d] [summarize] END exit_code=130 elapsed_ms=10473
+2026-08-06T15:11:43.151885+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] MODEL
+2026-08-06T15:11:43.152011+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] API error="interrupted"
+2026-08-06T15:11:43.152020+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] ERROR exit_code=130 message="interrupted"
+2026-08-06T15:11:43.152026+10:00 [b915744b-c49a-4b09-a653-9b215656ad08] [translatetozh] END exit_code=130 elapsed_ms=10476
+2026-08-06T15:11:44.094362+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] START
+2026-08-06T15:11:44.095191+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:44.095260+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:44.095296+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetozh.md"
+2026-08-06T15:11:44.098527+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] START
+2026-08-06T15:11:44.098753+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] START
+2026-08-06T15:11:44.100895+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:44.100918+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:44.100945+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T15:11:44.100984+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:11:44.101015+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:11:44.101042+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T15:11:44.104784+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] MODEL
+2026-08-06T15:12:20.832864+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] API status=200
+2026-08-06T15:12:20.834111+10:00 [401d2641-343c-4d2e-bea7-5cdebaaf9f5d] [clean-web] END exit_code=0 elapsed_ms=36735
+2026-08-06T15:12:20.845049+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] MODEL
+2026-08-06T15:12:45.762323+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] API status=200
+2026-08-06T15:12:45.763113+10:00 [d79dcc91-bff8-4611-a4fc-566d3b2007ad] [summarize] END exit_code=0 elapsed_ms=61664
+2026-08-06T15:12:45.769803+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] MODEL
+2026-08-06T15:14:29.541461+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] API status=200
+2026-08-06T15:14:29.542365+10:00 [531555a0-6681-479c-ab7f-065c7d9a0520] [translatetozh] END exit_code=0 elapsed_ms=165448
+2026-08-06T15:52:34.328468+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] START
+2026-08-06T15:52:34.329551+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:52:34.329751+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:52:34.329926+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/commit-message.md"
+2026-08-06T15:52:34.331085+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] MODEL
+2026-08-06T15:52:41.312781+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] API status=200
+2026-08-06T15:52:41.312953+10:00 [e75d2112-e4b7-4c40-9a66-ae2f361eec3f] [commit-message] END exit_code=0 elapsed_ms=6984
+2026-08-06T15:53:11.521592+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] START
+2026-08-06T15:53:11.522511+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:53:11.522750+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:53:11.522954+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/commit-message.md"
+2026-08-06T15:53:11.524092+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] MODEL
+2026-08-06T15:53:11.526242+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] START
+2026-08-06T15:53:11.528315+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:53:11.528339+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:53:11.528492+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetojp.md"
+2026-08-06T15:53:13.094945+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] API status=200
+2026-08-06T15:53:13.095247+10:00 [810f15f0-3668-43c8-b4f8-8735ca2c488f] [commit-message] END exit_code=0 elapsed_ms=1573
+2026-08-06T15:53:13.102584+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] MODEL
+2026-08-06T15:53:58.899190+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] API status=200
+2026-08-06T15:53:58.899725+10:00 [c093a72e-b5e4-4cde-892d-72062d5544c4] [translatetojp] END exit_code=0 elapsed_ms=47372
+2026-08-06T15:58:11.262174+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] START
+2026-08-06T15:58:11.263021+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:58:11.263169+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:58:11.263330+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T15:58:11.264587+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] MODEL
+2026-08-06T15:58:11.266541+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] START
+2026-08-06T15:58:11.266751+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] START
+2026-08-06T15:58:11.268981+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:58:11.268982+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T15:58:11.269009+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:58:11.269011+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T15:58:11.269173+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetozh.md"
+2026-08-06T15:58:11.269243+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T15:59:05.987488+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:05.988195+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:05.988238+10:00 [36434389-bacc-4c65-b430-d88c4246c513] [clean-web] END exit_code=74 elapsed_ms=54724
+2026-08-06T15:59:05.998057+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] MODEL
+2026-08-06T15:59:06.001256+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:06.001843+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:06.001893+10:00 [b708c6ba-f51a-45a9-b54d-0d77e6652a3b] [summarize] END exit_code=74 elapsed_ms=54733
+2026-08-06T15:59:06.011061+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] MODEL
+2026-08-06T15:59:06.014285+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:06.014705+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T15:59:06.014718+10:00 [0d384117-6999-45ba-8d6a-b02445ffb691] [translatetozh] END exit_code=74 elapsed_ms=54746
+2026-08-06T16:15:20.068803+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] START
+2026-08-06T16:15:20.069803+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:20.070076+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:20.070242+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T16:15:20.071336+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] MODEL
+2026-08-06T16:15:20.073037+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.073112+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.073120+10:00 [98c109bb-646a-4b46-9f97-0d06f3066145] [clean-web] END exit_code=74 elapsed_ms=4
+2026-08-06T16:15:20.073188+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] START
+2026-08-06T16:15:20.073383+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] START
+2026-08-06T16:15:20.075814+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:20.075831+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:20.075851+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:20.075859+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:20.076076+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T16:15:20.076122+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetozh.md"
+2026-08-06T16:15:20.080857+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] MODEL
+2026-08-06T16:15:20.081820+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.081941+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.081948+10:00 [5dafe609-dd7b-41c2-ac2e-d7b00f8b52d0] [summarize] END exit_code=74 elapsed_ms=8
+2026-08-06T16:15:20.087196+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] MODEL
+2026-08-06T16:15:20.088272+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.088388+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:15:20.088396+10:00 [982513fa-d53e-4f7d-b12c-77f0a3609f55] [translatetozh] END exit_code=74 elapsed_ms=15
+2026-08-06T16:15:29.750026+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] START
+2026-08-06T16:15:29.750526+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:29.750552+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:29.750583+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetozh.md"
+2026-08-06T16:15:29.754571+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] START
+2026-08-06T16:15:29.754795+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] START
+2026-08-06T16:15:29.756940+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:29.756964+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:29.756991+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T16:15:29.757025+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:15:29.757052+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:15:29.757079+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T16:15:29.760785+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] MODEL
+2026-08-06T16:17:22.945038+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] API status=200
+2026-08-06T16:17:22.946285+10:00 [f87af36f-e5a4-4154-b6c9-767f47588fb9] [clean-web] END exit_code=0 elapsed_ms=113188
+2026-08-06T16:17:22.956058+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] MODEL
+2026-08-06T16:18:02.704897+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] API status=200
+2026-08-06T16:18:02.705715+10:00 [c05a4f71-191c-4c0d-80e4-3b96c15c3605] [summarize] END exit_code=0 elapsed_ms=152946
+2026-08-06T16:18:02.710945+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] MODEL
+2026-08-06T16:18:32.724805+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] API status=200
+2026-08-06T16:18:32.725381+10:00 [e6f6803d-10f9-4f3b-8d56-d33e09579432] [translatetozh] END exit_code=0 elapsed_ms=182970
+2026-08-06T16:33:11.908847+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] START
+2026-08-06T16:33:11.909778+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:33:11.909917+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:33:11.910147+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/commit-message.md"
+2026-08-06T16:33:11.911099+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] MODEL
+2026-08-06T16:33:11.911705+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:33:11.911777+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:33:11.911783+10:00 [3386b2cd-766e-4c67-8f16-b19f4adad739] [commit-message] END exit_code=74 elapsed_ms=2
+2026-08-06T16:33:11.914061+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] START
+2026-08-06T16:33:11.916286+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T16:33:11.916310+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T16:33:11.916465+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetojp.md"
+2026-08-06T16:33:11.920775+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] MODEL
+2026-08-06T16:33:11.921832+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] API error="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:33:11.921921+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] ERROR exit_code=74 message="API request failed: error sending request for url (http://127.0.0.1:1234/v1/chat/completions)"
+2026-08-06T16:33:11.921931+10:00 [93480ca2-9af4-4fbe-b48e-b376b83bb094] [translatetojp] END exit_code=74 elapsed_ms=7
+2026-08-06T19:18:38.854394+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] START
+2026-08-06T19:18:38.855468+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T19:18:38.855621+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T19:18:38.855914+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetojp.md"
+2026-08-06T19:18:38.860939+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] START
+2026-08-06T19:18:38.861040+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] START
+2026-08-06T19:18:38.863364+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T19:18:38.863393+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T19:18:38.863431+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-06T19:18:38.863458+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-06T19:18:38.863520+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-06T19:18:38.863580+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-06T19:18:38.867856+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] MODEL
+2026-08-06T19:20:48.689325+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] API status=200
+2026-08-06T19:20:48.691031+10:00 [2a9dd2cc-2713-4cad-9e27-2a882884de5b] [clean-web] END exit_code=0 elapsed_ms=129827
+2026-08-06T19:20:48.700948+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] MODEL
+2026-08-06T19:21:32.409739+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] API status=200
+2026-08-06T19:21:32.410475+10:00 [d5afc975-7cad-4409-8c84-73bee097c5e6] [summarize] END exit_code=0 elapsed_ms=173546
+2026-08-06T19:21:32.413522+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] MODEL
+2026-08-06T19:22:13.450989+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] API status=200
+2026-08-06T19:22:13.451498+10:00 [ab556d40-80fc-49a0-8028-0694f9c7b017] [translatetojp] END exit_code=0 elapsed_ms=214593
+2026-08-07T14:47:46.809036+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] START
+2026-08-07T14:47:46.810028+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-07T14:47:46.810250+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-07T14:47:46.810537+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/summarize.md"
+2026-08-07T14:47:46.814387+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] START
+2026-08-07T14:47:46.814513+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] START
+2026-08-07T14:47:46.816811+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-07T14:47:46.816845+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-07T14:47:46.816876+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] CONFIG path="/Users/starklin/rust-agent/rust-agent/.llmf/config.json" model="qwen/qwen3.5-35b-a3b"
+2026-08-07T14:47:46.816903+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] SYSTEM_PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/system_prompt.md"
+2026-08-07T14:47:46.816971+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/clean-web.md"
+2026-08-07T14:47:46.817044+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] PROMPT path="/Users/starklin/rust-agent/rust-agent/.llmf/prompts/translatetojp.md"
+2026-08-07T14:47:46.821140+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] MODEL
+2026-08-07T14:49:41.124988+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] API status=200
+2026-08-07T14:49:41.126311+10:00 [16709e87-9c79-48ef-9d27-eb0dae8e9361] [clean-web] END exit_code=0 elapsed_ms=114312
+2026-08-07T14:49:41.130979+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] MODEL
+2026-08-07T14:50:17.678528+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] API status=200
+2026-08-07T14:50:17.679346+10:00 [79e04034-a5e4-46bd-b891-4b5b16b2b54a] [summarize] END exit_code=0 elapsed_ms=150870
+2026-08-07T14:50:17.691190+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] MODEL
+2026-08-07T14:50:53.738617+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] API status=200
+2026-08-07T14:50:53.739487+10:00 [f5e465bc-60b0-4bec-a135-880f4380f053] [translatetojp] END exit_code=0 elapsed_ms=186925
