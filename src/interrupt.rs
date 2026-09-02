@@ -14,7 +14,10 @@ pub fn install() {
     // The handler only stores a lock-free flag; all reporting remains on the
     // normal execution path, so stderr retains its single-line contract.
     unsafe {
-        libc::signal(libc::SIGINT, handle_sigint as libc::sighandler_t);
+        libc::signal(
+            libc::SIGINT,
+            handle_sigint as *const () as libc::sighandler_t,
+        );
     }
 }
 
