@@ -21,8 +21,8 @@ Install a stable Rust toolchain with Rust 2024 edition support from
 [rustup](https://rustup.rs/), then clone the repository and install the binary:
 
 ```sh
-git clone https://github.com/stark-lin/rust-agent.git
-cd rust-agent
+git clone https://github.com/stark-lin/llmf.git
+cd llmf
 cargo install --path . --locked
 ```
 
@@ -39,7 +39,7 @@ cargo build --release --locked
 
 ## Install a prebuilt snapshot
 
-The rolling [`main-latest` release](https://github.com/stark-lin/rust-agent/releases/tag/main-latest)
+The rolling [`main-latest` release](https://github.com/stark-lin/llmf/releases/tag/main-latest)
 contains a `.tar.gz` archive and a matching `.sha256` checksum for each native
 target below.
 
@@ -55,7 +55,7 @@ For example, on Apple-silicon macOS:
 
 ```sh
 target=aarch64-apple-darwin
-base="https://github.com/stark-lin/rust-agent/releases/download/main-latest"
+base="https://github.com/stark-lin/llmf/releases/download/main-latest"
 curl -fLO "$base/llmf-$target.tar.gz"
 curl -fLO "$base/llmf-$target.tar.gz.sha256"
 shasum -a 256 -c "llmf-$target.tar.gz.sha256"

@@ -1,6 +1,6 @@
 # llmf
 
-[![CI/CD](https://github.com/stark-lin/rust-agent/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/stark-lin/rust-agent/actions/workflows/ci-cd.yml)
+[![CI/CD](https://github.com/stark-lin/llmf/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/stark-lin/llmf/actions/workflows/ci-cd.yml)
 
 > Prompt is the command. Markdown is the data. Unix is the workflow.
 
